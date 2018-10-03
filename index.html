@@ -3,12 +3,23 @@
     <title>Vue.js Basics</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
   </head>
+  <style>
+	.one{
+		color:red;
+	}
+	.two{
+		background:yellow;
+	}
+  </style>
   <body>
 
     <h1>Vue Basics</h1>
     <div id="app">
       <h2>{{ title }}</h2>
       <h2>{{ texto }}</h2>
+	  <p>{{ greet('Blink 182 ') }}</p>
+	  <a v-bind:href='url'>Youtube</a>
+	  <div v-bind:class="classes">Classes from Instances</div>
     </div>
 
     <script src="app.js"></script>
