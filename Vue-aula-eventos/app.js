@@ -3,7 +3,7 @@ new Vue({
   el: '#app',
   data: {
     title: 'Exercicio 5 - Eventos',
-    name: 'Igor',
+    name: '',
     coords:{
     	x:0,
     	y:0

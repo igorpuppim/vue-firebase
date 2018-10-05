@@ -17,7 +17,8 @@
     <div id="app">
       <h2>{{ title }}</h2>
       <p>Meu nome é {{ name}}</p>
-      <input type="text" @keyup="updateName">
+      <!--<input type="text" @keyup="updateName">-->
+      <input type="text" v-model="name">
       <button @click="logEvent">Log do evento</button>
       <div class="canvas" @mousemove="logCoords">{{ coords.x }},{{ coords.y }}</div>
     </div>
