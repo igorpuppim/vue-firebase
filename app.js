@@ -4,6 +4,7 @@ new Vue({
   data: {
     title: 'Exercicio 4',
 	texto: 'aula 8',
+	name: 'Carlos',
 	musica: ' i miss you: ',
 	url: 'https://www.youtube.com',
 	classes: ['one','two']
